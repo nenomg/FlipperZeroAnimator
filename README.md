@@ -36,7 +36,7 @@ I would use this image to make a animation, the software scales the image so i p
 
 ![rocklee](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/4525e801-1457-4b1a-b25e-00bf815f4e09)
 
-Create a folder with the flipper zero 
+Create a folder with the gif and the flipper zero animator script
 
 ![image](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/0266ee0d-4de6-402a-b401-c9a5895629e3)
 
@@ -46,8 +46,6 @@ Open a command line in the folder and run the command
 
 Then the image and the meta file will be created in the folder
 
-![image](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/148be131-becd-40a6-bf16-7bac595dd53b)
-
 ![image](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/a3958455-8846-4aed-b36a-d588c9824f43)
 
 This is the content of the meta.txt file:
@@ -55,5 +53,43 @@ This is the content of the meta.txt file:
 ![image](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/2a00166f-ee37-4648-91be-49c3ff679c38)
 
 Now it is ready to be compiled with the desired firmware, for this case i would use the roguemaster one: https://github.com/RogueMaster/flipperzero-firmware-wPlugins
+
+###Build
+First you need to clone the firmware from the repository using:
+`git clone --recursive https://github.com/RogueMaster/flipperzero-firmware-wPlugins.git`
+
+Then go to the external folder and paste the animation folder
+
+![image](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/2cfd0274-5044-4760-b37b-5235eb6e100b)
+
+Finally update the manifest inside the external folder and add the reference to the animation
+
+![image](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/668049ec-9c24-4ed0-a3a4-5e1155f61d77)
+
+Inside the roguemaster firmware folder run this command to build it
+
+![image](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/60935b40-fd69-474f-b152-de958af45f2d)
+
+It will generate an output like this at the end
+
+![image](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/62f8497f-b4fa-4abe-9649-3ab157590200)
+
+Go to the folder where the compiled firmware is and copy it inside the update folder in the flipper
+
+![image](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/b7598923-96fa-41f3-958d-53c0d677d83b)
+
+![image](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/d3a89eff-9e90-49fc-8f94-21c7c889d9a5)
+
+Then take to the flipper zero and go to the update directory in the file explorer
+
+![image](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/cf2acb9a-b9b6-46c2-a6a3-4f8aa67f4c2a)
+
+Run the update
+
+![image](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/031094da-fe90-4f9f-9ad3-231cc3fbea1d)
+
+
+
+
 
 

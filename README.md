@@ -17,14 +17,14 @@ This script is designed for the Flipper Zero device, allowing you to convert GIF
 
 
 - `<input_file>`: Path to the input GIF file.
-- `<output_folder>`: Path to the output folder where the frames and manifest will be saved.
+- `<output_folder>`: Path to the output folder where the frames and meta will be saved.
 
 3. Once the script finishes, the `<output_folder>` is ready to be compiled into a Flipper Zero firmware. You can use the Flipper Zero development tools to integrate these frames into your projects.
 
 ## Important Notes
 
 - The script uses the Python Imaging Library (PIL) to handle image operations. Make sure to install it before running the script.
-- The output folder contains the frames as PNG files and a manifest file specifying animation details.
+- The output folder contains the frames as PNG files and a meta file specifying animation details.
 - Ensure that the resized frames fit the Flipper Zero's display dimensions (128x64 pixels).
 - For more information on Flipper Zero development and firmware integration, refer to the official Flipper Zero documentation.
 

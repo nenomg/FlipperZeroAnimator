@@ -84,11 +84,9 @@ Run the update
 
 ![image](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/031094da-fe90-4f9f-9ad3-231cc3fbea1d)
 
-And we will have the animation already in the flipper
+And after the update the animation will be ready to be played in the flipper
 
 ![ezgif com-video-to-gif](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/f0540efe-5327-4340-94b9-c9e85697d804)
-
-# ENJOY
 
 
 

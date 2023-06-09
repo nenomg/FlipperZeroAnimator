@@ -48,10 +48,6 @@ Then the image and the meta file will be created in the folder
 
 ![image](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/a3958455-8846-4aed-b36a-d588c9824f43)
 
-This is the content of the meta.txt file:
-
-![image](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/2a00166f-ee37-4648-91be-49c3ff679c38)
-
 Now it is ready to be compiled with the desired firmware, for this case i would use the roguemaster one: https://github.com/RogueMaster/flipperzero-firmware-wPlugins
 
 ###Build

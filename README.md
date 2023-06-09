@@ -29,3 +29,10 @@ This script is designed for the Flipper Zero device, allowing you to convert GIF
 - For more information on Flipper Zero development and firmware integration, refer to the official Flipper Zero documentation.
 
 Feel free to customize and enhance this script to fit your specific requirements. Enjoy creating animations for your Flipper Zero device!
+
+## Usage Example
+
+I would use this image to make a animation, the software scales the image so i prefer to use a 2x1 scale for the images, so width is 2 times the height like in the Flipper Zero.
+
+![rocklee](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/4525e801-1457-4b1a-b25e-00bf815f4e09)
+

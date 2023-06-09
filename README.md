@@ -12,7 +12,7 @@ This script is designed for the Flipper Zero device, allowing you to convert GIF
 
 2. Run the script using the command-line interface:
 
-`python main.py <input_file> <output_folder>`
+`python flipperAnimator.py <input_file> <output_folder>`
 
 
 
@@ -35,4 +35,25 @@ Feel free to customize and enhance this script to fit your specific requirements
 I would use this image to make a animation, the software scales the image so i prefer to use a 2x1 scale for the images, so width is 2 times the height like in the Flipper Zero.
 
 ![rocklee](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/4525e801-1457-4b1a-b25e-00bf815f4e09)
+
+Create a folder with the flipper zero 
+
+![image](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/0266ee0d-4de6-402a-b401-c9a5895629e3)
+
+Open a command line in the folder and run the command
+
+![image](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/5ca1088c-2a5a-4a61-8d01-742acd1913e2)
+
+Then the image and the meta file will be created in the folder
+
+![image](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/148be131-becd-40a6-bf16-7bac595dd53b)
+
+![image](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/a3958455-8846-4aed-b36a-d588c9824f43)
+
+This is the content of the meta.txt file:
+
+![image](https://github.com/nenomg/FlipperZeroAnimator/assets/105873794/2a00166f-ee37-4648-91be-49c3ff679c38)
+
+Now it is ready to be compiled with the desired firmware, for this case i would use the roguemaster one: https://github.com/RogueMaster/flipperzero-firmware-wPlugins
+
 

@@ -50,7 +50,7 @@ Then the image and the meta file will be created in the folder
 
 Now it is ready to be compiled with the desired firmware, for this case i would use the roguemaster one: https://github.com/RogueMaster/flipperzero-firmware-wPlugins
 
-###Build
+##Build
 First you need to clone the firmware from the repository using:
 `git clone --recursive https://github.com/RogueMaster/flipperzero-firmware-wPlugins.git`
 

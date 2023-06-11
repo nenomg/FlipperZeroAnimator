@@ -12,7 +12,7 @@ This script is designed for the Flipper Zero device, allowing you to convert GIF
 
 2. Run the script using the command-line interface:
 
-`python flipperAnimator.py <input_file> <output_folder>`
+`python flipperAnimator.py <output_folder> <input_file>`
 
 
 
